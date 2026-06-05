@@ -29,13 +29,13 @@ Instead of an AI agent scraping your site and guessing what buttons to click, We
 Add one line to any HTML page:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sailorpepe/tcg-oracle-webmcp@latest/tcg-oracle-webmcp.js"></script>
+<script src="https://oracle.the-undesirables.com/static/tcg-oracle-webmcp.js"></script>
 ```
 
-Or self-host:
+Or via jsDelivr CDN:
 
 ```html
-<script src="/tcg-oracle-webmcp.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sailorpepe/tcg-oracle-webmcp@latest/tcg-oracle-webmcp.js"></script>
 ```
 
 That's it. Any AI agent with WebMCP support will automatically discover the tools.
