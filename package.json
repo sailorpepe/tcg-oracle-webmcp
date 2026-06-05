@@ -1,0 +1,24 @@
+{
+  "name": "tcg-oracle-webmcp",
+  "version": "1.0.0",
+  "description": "WebMCP integration for the TCG Oracle — makes 432K+ trading card prices discoverable by AI agents via the browser",
+  "main": "tcg-oracle-webmcp.js",
+  "author": "SailorPepe <sailorpepe@theundesirables.com>",
+  "license": "BUSL-1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sailorpepe/tcg-oracle-webmcp"
+  },
+  "keywords": [
+    "webmcp",
+    "mcp",
+    "trading-cards",
+    "oracle",
+    "ai-agents",
+    "litvm",
+    "tcg",
+    "pokemon",
+    "magic-the-gathering",
+    "price-oracle"
+  ]
+}
