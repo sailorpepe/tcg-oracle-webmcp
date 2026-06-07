@@ -89,7 +89,7 @@
     },
     handler: async ({ product_id, days }) => {
       const d = Math.min(days || 30, 60);
-      return oracleFetch(`/api/v1/price?product_id=${product_id}&days=${d}`);
+      return oracleFetch(`/api/v1/price?product_id=${encodeURIComponent(product_id)}&days=${encodeURIComponent(d)}`);
     },
   });
 
@@ -111,7 +111,7 @@
       required: ["product_id"],
     },
     handler: async ({ product_id }) => {
-      return oracleFetch(`/api/v1/graded?product_id=${product_id}`);
+      return oracleFetch(`/api/v1/graded?product_id=${encodeURIComponent(product_id)}`);
     },
   });
 
@@ -150,7 +150,7 @@
       required: ["product_id"],
     },
     handler: async ({ product_id }) => {
-      return oracleFetch(`/api/v1/merkle/proof?product_id=${product_id}`);
+      return oracleFetch(`/api/v1/merkle/proof?product_id=${encodeURIComponent(product_id)}`);
     },
   });
 
@@ -194,7 +194,7 @@
     },
     handler: async ({ direction, limit }) => {
       const n = Math.min(limit || 10, 25);
-      return oracleFetch(`/api/v1/movers?direction=${direction}&limit=${n}`);
+      return oracleFetch(`/api/v1/movers?direction=${encodeURIComponent(direction)}&limit=${encodeURIComponent(n)}`);
     },
   });
 
