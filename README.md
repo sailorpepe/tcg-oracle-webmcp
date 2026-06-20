@@ -132,7 +132,7 @@ Every price returned by the oracle can be cryptographically verified on-chain:
 
 | Contract | Address | Chain |
 |----------|---------|-------|
-| TCGPriceOracleV2 | `0x04a128F4a7A0588D259F8abe9E260BbffF203072` | LitVM LiteForge (4441) |
+| TCGPriceOracleV2 | `0x697bF6AE96fb05a47106abd012C39855A16a720E` | LitVM LiteForge (4441) |
 | GradedPriceOracle | `0xc159550e9e751d6E75A0A06Bb04cfA2f59aD636B` | LitVM LiteForge (4441) |
 | MerkleOracleV2 | `0x96B124f50156589274ADF8F674509374752170Cd` | LitVM LiteForge (4441) |
 
