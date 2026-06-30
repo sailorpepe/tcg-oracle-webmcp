@@ -147,7 +147,7 @@ WebMCP is just one way to access the TCG Oracle. Choose the method that fits you
 | **WebMCP** (this repo) | `<script>` tag | AI agents in browsers |
 | **MCP Server** | [`pip install undesirables-mcp-server`](https://pypi.org/project/undesirables-mcp-server/) | Claude, Cursor, VS Code |
 | **LitVM MCP** | [`pip install litvm-tcg-oracle`](https://pypi.org/project/litvm-tcg-oracle/) | On-chain verification |
-| **ElizaOS Plugin** | [`npm i @the-undesirables/plugin-tcg-grader`](https://www.npmjs.com/package/@the-undesirables/plugin-tcg-grader) | Autonomous AI agents |
+| **ElizaOS Plugin** | [`npm i plugin-undesirables`](https://www.npmjs.com/package/plugin-undesirables) | Autonomous AI agents |
 | **REST API** | [`oracle.the-undesirables.com`](https://oracle.the-undesirables.com) | Direct HTTP integration |
 | **x402 Paid API** | USDC micropayments on Base | Premium data (risk forecasts, AI grading) |
 
