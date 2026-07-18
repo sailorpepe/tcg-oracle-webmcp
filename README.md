@@ -4,7 +4,7 @@
 
 **The world's first on-chain price oracle with native WebMCP support.**
 
-Make 432,000+ trading card prices, graded premiums, and on-chain Merkle proofs
+Make 446,000+ trading card prices, graded premiums, and on-chain Merkle proofs
 discoverable by any AI agent — directly from the browser.
 
 [![WebMCP](https://img.shields.io/badge/WebMCP-Chrome_146+-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/ai/webmcp)
@@ -48,7 +48,7 @@ That's it. Any AI agent with WebMCP support will automatically discover the tool
 
 | Tool | Description | Endpoint |
 |------|-------------|----------|
-| `tcg_search` | Search 432K+ cards by name across 13 TCG categories | Free |
+| `tcg_search` | Search 446K+ cards by name across 25+ TCG categories | Free |
 | `tcg_price` | Get current price + 60 days of daily history | Free |
 | `tcg_graded_premiums` | PSA 10, PSA 9, BGS 9.5 prices from eBay solds | Free |
 | `tcg_categories` | List all 13 supported game categories | Free |
@@ -118,7 +118,7 @@ const proof = await tools.tcg_merkle_proof.call({ product_id: 1196 });
 ┌──────────────────────────────────────────────┐
 │  oracle.the-undesirables.com                 │
 │  ┌──────────┐  ┌───────────┐  ┌───────────┐ │
-│  │ 432K     │  │ 12.4M     │  │ Merkle    │ │
+│  │ 446K     │  │ 26.9M     │  │ Merkle    │ │
 │  │ Products │  │ Prices    │  │ Proofs    │ │
 │  └──────────┘  └───────────┘  └───────────┘ │
 │                                              │
