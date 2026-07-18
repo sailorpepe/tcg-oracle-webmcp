@@ -51,10 +51,12 @@ That's it. Any AI agent with WebMCP support will automatically discover the tool
 | `tcg_search` | Search 446K+ cards by name across 25+ TCG categories | Free |
 | `tcg_price` | Get current price + 60 days of daily history | Free |
 | `tcg_graded_premiums` | PSA 10, PSA 9, BGS 9.5 prices from eBay solds | Free |
-| `tcg_categories` | List all 13 supported game categories | Free |
+| `tcg_categories` | List all supported game categories | Free |
 | `tcg_merkle_proof` | On-chain Merkle proof (LitVM LiteForge) | Free |
 | `tcg_oracle_stats` | Live oracle statistics and data freshness | Free |
 | `tcg_top_movers` | Top gaining/losing cards over 7 days | Free |
+| `undesirables_mint_status` | Live mint status for The Undesirables (UNDSR) — supply, price, limits | Free |
+| `undesirables_prepare_mint` | Build an UNSIGNED UNDSR mint transaction — user signs with their own wallet | Free |
 
 ## How AI Agents Use It
 
